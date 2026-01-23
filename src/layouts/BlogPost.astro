@@ -16,7 +16,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<style>
 			main {
 				width: calc(100% - 2em);
-				max-width: 100%;
 				margin: 0;
 				text-align: left;
 				background-color: #fbe5ec;
@@ -26,7 +25,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.hero-image img {
 				display: block;
-				margin: 0 auto;
+				margin: 0;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
 			}
@@ -34,7 +33,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				width: 720px;
 				max-width: 100%;
 				margin: 0;
-				padding: 50px;
+				padding: 15px;
 				color: #c15b75;
 			}
 			.title {
